@@ -29,4 +29,27 @@
         android:hint="비밀번호 입력"
         android:inputType="textPassword"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한줄 자기소개" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자기소개를 한줄로 입력"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추천인 닉네임 검색" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="닉네임 검색"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"/>
+
 </LinearLayout>
